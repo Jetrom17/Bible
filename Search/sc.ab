@@ -1,0 +1,9 @@
+import {input} from "std"
+
+main {
+    let grep_str = input("Write: ")
+    let file = $cat AA.txt | grep "{grep_str}"$ failed {
+        echo "{status}"
+    }
+    echo file
+}
